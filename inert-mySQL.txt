@@ -1,8 +1,0 @@
-// insert user
-
-INSERT INTO `readers` (`User_ID`, `first_name`, `last_name`, `email`, `username`, `password`, `address`, `user_type`) VALUES (NULL, 'علی', 'شاهنوشی', 'alishahnoushi@gmail.com', 'ali_geek', '1744071330', 'اصفهان - ملک شهر', 'admin');
-
-
-// insert message
-
-INSERT INTO `message` (`ID`, `sender_id`, `title`, `message_content`, `send_at`, `seen_at`) VALUES (NULL, '1', 'ثبت نام', 'چگونه در سایت ثبت نام کنم؟', '2023-10-09', '2023-10-11');
